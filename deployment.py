@@ -14,7 +14,7 @@ if len(sys.argv) != 2:
 DPU_CONFIG = sys.argv[1]
 
 # file path
-MODEL_PATH = f"./outputs/{DPU_CONFIG}/{DPU_CONFIG}.xmodel"
+MODEL_PATH = f"./xmodel_outputs/{DPU_CONFIG}/{DPU_CONFIG}.xmodel"
 IMAGES_FOLDER = "./images/"
 
 all_process_start_time = time.time()
